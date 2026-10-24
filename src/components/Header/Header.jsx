@@ -1,4 +1,5 @@
 import s from './Header.module.css'
+import znakBg from '../../assets/znak.png';
 export function Header() {
     return (
         <header className={s.header} >
@@ -7,7 +8,7 @@ export function Header() {
 
                     <a href="#" className={s.logo}>
                         <div className={s.logo__icon}>
-                            <img src="src/assets/znak.png" alt="" />
+                         <img src={znakBg} className={s.logo__icon} />
                         </div>
                         <span className={s.logo__text}>шагомер</span>
                     </a>

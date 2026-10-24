@@ -1,4 +1,5 @@
 import s from './Catalog.module.css';
+import imagesBg from '../../assets/images.png';
 
 export function Catalog() {
   return (
@@ -11,10 +12,10 @@ export function Catalog() {
        
           <div className={s.featureCard}>
             <div className={s.iconWrapper}>
-             <img src="src/assets/images.png" alt="" />
+        <img src={imagesBg} className={s.iconWrapper} />
             </div>
             <h3 className={s.cardTitle}>Удобный каталог</h3>
-            <p className={s.cardText}>
+            <p className={s.cardText}  >
               Кроссовки и кеды для разных планов и прогулок без маршрута.
             </p>
           </div>
@@ -22,7 +23,7 @@ export function Catalog() {
       
           <div className={s.featureCard}>
             <div className={s.iconWrapper}>
-               <img src="src/assets/images.png" alt="" />
+               <img src={imagesBg} className={s.iconWrapper} />
             </div>
             <h3 className={s.cardTitle}>Всегда на связи</h3>
             <p className={s.cardText}>
@@ -33,7 +34,7 @@ export function Catalog() {
    
           <div className={s.featureCard}>
             <div className={s.iconWrapper}>
-            <img src="src/assets/images.png" alt="" />
+              <img src={imagesBg} className={s.iconWrapper} />
             </div>
             <h3 className={s.cardTitle}>Для твоего города</h3>
             <p className={s.cardText}>
