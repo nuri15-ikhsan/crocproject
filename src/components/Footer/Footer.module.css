@@ -1,0 +1,129 @@
+.footer {
+            background-color: #3d3d3d;
+            padding: 40px 24px;
+            color: #d4a6a6;
+        }
+
+        .footer__container {
+            max-width: 1180px;
+            margin: 0 auto;
+        }
+
+        
+        .footer__top {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 40px;
+        }
+
+    
+        .footer__info {
+            max-width: 320px;
+        }
+
+        .footer__logo {
+            font-size: 24px;
+            font-weight: 800;
+            color: #d0c5c5;
+            text-decoration: none;
+            display: block;
+            margin-bottom: 16px;
+            letter-spacing: -0.5px;
+        }
+
+        .footer__desc {
+            font-size: 14px;
+            line-height: 1.5;
+            color: #888;
+        }
+
+        /* Правая колонка */
+        .footer__contacts {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            text-align: right;
+        }
+
+        .footer__contacts-title {
+            font-size: 14px;
+            font-weight: 700;
+            color: #1a1a1a;
+            margin-bottom: 12px;
+        }
+
+        .footer__email {
+            font-size: 14px;
+            color: #d9451a;
+            text-decoration: none;
+            margin-bottom: 8px;
+            transition: opacity 0.2s;
+        }
+
+        .footer__email:hover {
+            opacity: 0.8;
+        }
+
+        .footer__phone-wrap {
+            font-size: 13px;
+            color: #888;
+            margin-bottom: 12px;
+        }
+
+        .footer__phone {
+            color: #888;
+            text-decoration: none;
+        }
+
+        .footer__socials {
+            display: flex;
+            gap: 16px;
+        }
+
+        .footer__social-link {
+            font-size: 13px;
+            color: #d9451a;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            gap: 4px;
+            transition: opacity 0.2s;
+        }
+
+        .footer__social-link:hover {
+            opacity: 0.8;
+        }
+
+        .footer__social-link svg {
+            width: 10px;
+            height: 10px;
+        }
+
+        /* ─── Разделитель ─── */
+        .footer__divider {
+            height: 1px;
+            background-color: #eaeaea;
+            margin-bottom: 24px;
+        }
+
+        /* ─── Нижняя часть ─── */
+        .footer__bottom {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 12px;
+            color: #999;
+        }
+
+        .footer__bottom a {
+            color: #999;
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+
+        .footer__bottom a:hover {
+            color: #1a1a1a;
+        }
+
+       

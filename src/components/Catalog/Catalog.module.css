@@ -1,0 +1,62 @@
+/* Обратите внимание: названия классов теперь с большой буквы (camelCase) */
+.featuresSection {
+    background-color: #f4f3ef;
+    padding: 40px 20px;
+    margin: 20px;
+    border-radius: 4px;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.featuresTitle {
+    font-size: 24px;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin-bottom: 24px;
+}
+
+.featuresGrid {
+    display: flex;
+    gap: 20px;
+}
+
+.featureCard {
+    background-color: #ffffff;
+    border-radius: 6px;
+    padding: 24px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.02);
+}
+
+.iconWrapper {
+    width: 40px;
+    height: 40px;
+    background-color: #fdf6f4;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 16px;
+}
+.iconWrapper img{
+width: 20px;
+height: 20px;
+}
+
+.cardTitle {
+    font-size: 16px;
+    font-weight: 600;
+    color: #1a1a1a;
+    margin-bottom: 8px;
+}
+
+.cardText {
+    font-size: 14px;
+    color: #757575;
+    line-height: 1.5;
+}
