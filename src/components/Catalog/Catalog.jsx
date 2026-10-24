@@ -3,27 +3,28 @@ import imagesBg from '../../assets/images.png';
 
 export function Catalog() {
   return (
-   
     <section className={s.featuresSection}>
-      <div className="container">
+   
+      <div className="container"> 
         <h2 className={s.featuresTitle}>Почему выбирают шагомер</h2>
 
         <div className={s.featuresGrid}>
-       
+          
           <div className={s.featureCard}>
             <div className={s.iconWrapper}>
-        <img src={imagesBg} className={s.iconWrapper} />
+           
+              <img src={imagesBg} className={s.iconImage} alt="Иконка каталога" />
             </div>
             <h3 className={s.cardTitle}>Удобный каталог</h3>
-            <p className={s.cardText}  >
+            <p className={s.cardText}>
               Кроссовки и кеды для разных планов и прогулок без маршрута.
             </p>
           </div>
 
-      
+       
           <div className={s.featureCard}>
             <div className={s.iconWrapper}>
-               <img src={imagesBg} className={s.iconWrapper} />
+              <img src={imagesBg} className={s.iconImage} alt="Иконка связи" />
             </div>
             <h3 className={s.cardTitle}>Всегда на связи</h3>
             <p className={s.cardText}>
@@ -34,7 +35,7 @@ export function Catalog() {
    
           <div className={s.featureCard}>
             <div className={s.iconWrapper}>
-              <img src={imagesBg} className={s.iconWrapper} />
+              <img src={imagesBg} className={s.iconImage} alt="Иконка города" />
             </div>
             <h3 className={s.cardTitle}>Для твоего города</h3>
             <p className={s.cardText}>

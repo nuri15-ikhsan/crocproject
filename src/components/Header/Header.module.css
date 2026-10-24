@@ -1,64 +1,67 @@
 .header {
-    background-color: #ffffff;
     width: 100%;
-    border-bottom: 1px solid #eee;
-
+    padding: 20px 0;
+    background-color: #ffffff; 
 }
 
-
-.header_block {
- display: flex;
- justify-content: space-between;
- align-items: center;
- padding: 15px;
-   
-  
+.headerBlock {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
+
 
 .logo {
     display: flex;
     align-items: center;
-    gap: 10px;
+    text-decoration: none;
+    color: #1a1a1a;
+    gap: 10px; 
 }
 
-
-.logo__icon img {
-    width: 40px;
-    height: 40px;
-}
-
-.logo__text {
-    font-size: 24px;
-    font-weight: 900;
-    color: #212121;
-    letter-spacing: -0.5px;
+.logoIconWrapper {
+  
     display: flex;
-    gap: 25px;
+    align-items: center;
+    justify-content: center;
 }
 
+.logoIcon {
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+}
+
+.logoText {
+    font-size: 20px;
+    font-weight: 700;
+   
+}
 
 .nav {
     display: flex;
-    justify-content: space-between;
-    gap: 45px;
+    gap: 30px;
 }
 
-.nav__link {
-    color: #444;
+.navLink {
+    text-decoration: none;
+    color: #1a1a1a;
+    font-size: 16px;
+    transition: color 0.3s ease;
 }
 
-.nav__link:hover {
-    color: #000;
+.navLink:hover {
+    color: #e55c38; 
 }
+
 
 .phone {
-    text-decoration: none;
-    color: #444;
     font-size: 16px;
-    font-weight: 500;
-    white-space: nowrap;
+    font-weight: 600;
+    color: #1a1a1a;
+    text-decoration: none;
 }
 
 .phone:hover {
-    color: #000;
+    color: #e55c38;
 }

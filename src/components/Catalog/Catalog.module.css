@@ -60,3 +60,20 @@ height: 20px;
     color: #757575;
     line-height: 1.5;
 }
+.iconWrapper {
+    width: 40px;
+    height: 40px;
+    background-color: #fdf6f4;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 16px;
+}
+
+
+.iconImage {
+    width: 24px;  
+    height: 24px;
+    object-fit: contain; 
+}
